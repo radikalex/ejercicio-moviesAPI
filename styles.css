@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.cards-container {
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card {
+    width: 22.5%;
+    margin: 1.25%;
+}
+
+img {
+    width: 100%;
+}
+
+.card-detail {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10%;
+}
+
+.detail {
+    font-weight: bold;
+}
